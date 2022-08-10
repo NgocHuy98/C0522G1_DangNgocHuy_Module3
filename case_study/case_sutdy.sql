@@ -173,7 +173,7 @@ insert into dich_vu (ma_dich_vu, ten_dich_vu, dien_tich, chi_phi_thue, so_nguoi_
 ('4', 'Villa No Beach Front', '22000', '9000000', '8', 'normal', 'Có hồ bơi', 300, '3', 'null', '3', '1'),
 ('5', 'House Princess 02', '10000', '4000000', '5', 'normal', 'Có thêm bếp nướng', 0, '2', 'null', '3', '2'),
 ('6', 'Room Twin 02', '3000', '900000', '2', 'normal', 'Có tivi', null, 0, '1 Xe máy', '4', '3');
-insert into dich_vu_di_kem (ma_dich_vu_di_kem, ten_dich_vu_di_kem, gia, don_vi, trang_thai) valuestrinh_do
+insert into dich_vu_di_kem (ma_dich_vu_di_kem, ten_dich_vu_di_kem, gia, don_vi, trang_thai) values
 ('1', 'Karaoke', '10000', 'giờ', 'tiện nghi, hiện tại'),
 ('2', 'Thuê xe máy', '10000', 'chiếc', 'hỏng 1 xe'),
 ('3', 'Thuê xe đạp', '20000', 'chiếc', 'tốt'),
@@ -210,10 +210,10 @@ or ho_ten like 'T%')
 and character_length(ho_ten) <= 15;
 
 select ho_ten, ma_khach_hang from khach_hang
-where (dia_chi like '%Đà Nẵng' or dia_chi like '%Quảng Trị');
---  and 
--- round(datediff(curdate(),ngay_sinh))/365)>=18
--- and (round(datediff(curdate(),ngay_sinh)/365<=50));
+where ((dia_chi like '%Đà Nẵng' or dia_chi like '%Quảng Trị')
+ and 
+round(datediff(curdate(),ngay_sinh)/365) >=18
+and round(datediff(curdate(),ngay_sinh)/365) <=50);
 
 select *from dich_vu;
 select *from dich_vu_di_kem;
