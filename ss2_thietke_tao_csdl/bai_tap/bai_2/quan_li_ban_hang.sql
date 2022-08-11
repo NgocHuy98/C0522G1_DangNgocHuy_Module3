@@ -1,9 +1,9 @@
 drop database if exists quan_ly_ban_hang;
 create database quan_ly_ban_hang;
-
+use quan_ly_ban_hang;
 create table customer(
-c_id int primary key not null,
-c_name varchar(25) not null,
+c_id int primary key ,
+c_name varchar(25) ,
 c_age tinyint
 );
 
