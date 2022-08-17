@@ -18,7 +18,7 @@ select kh.ma_khach_hang,
        (ifnull(dv.chi_phi_thue,0)
        + ifnull(hdct.so_luong,0)*ifnull(dvdk.gia,0)) as tong_tien
        from khach_hang kh
-       join loai_khach lk on kh.ma_loai_khach = lk.ma_loai_khach
+       left join loai_khach lk on kh.ma_loai_khach = lk.ma_loai_khach
        left join hop_dong hd on kh.ma_khach_hang = hd.ma_khach_hang
        left join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
        left join dich_vu_di_kem dvdk on hdct.ma_dich_vu_di_kem = dvdk.ma_dich_vu_di_kem

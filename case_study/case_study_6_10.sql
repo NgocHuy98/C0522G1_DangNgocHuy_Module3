@@ -33,7 +33,13 @@ group by dv.ma_dich_vu;
 -- Câu 8
 select kh.ho_ten from khach_hang kh
 where kh.ma_khach_hang = 1;
--- group by kh.ho_ten 
+-- group by kh.ho_ten
+-- select ho_ten from khach_hang
+-- union 
+-- select ho_ten from khach_hang
+
+ 
+
 
 -- Câu 9
 select month(ngay_lam_hop_dong) as thang, count(ma_khach_hang) as so_lan_dat
