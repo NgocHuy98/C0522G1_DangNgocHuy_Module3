@@ -71,11 +71,13 @@ article .display h3 {
 }
 
 article .new_item{
-    width: 28%;
-    padding: 12px;
+    width: 30%;
+    border: 1px;
     float: left;
-    border: 1px ;
-    margin-right: 1%;
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+
 }
 #fix{
     margin-right: 0;
