@@ -1,63 +1,64 @@
+.head {
+    background: ActiveBorder;
+    color: #fffcfc;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: -10px;
+}
 
-.head{
+.head img {
+    margin-top: -10px;
+}
 
-    background: white;
-    height: 10%;
+.footer {
+    height: 50px;
+    width: 100%;
+    color: white;
 }
-.left{
-    background: #f0f2f5;
-}
-.right{
-    background: #f0f2f5;
-}
-.contain{
-    background: #f0f2f5;
-}
-.width{
 
-    margin-left: 0;
-}
-.width1{
-
-}
-.width2{
-text-align: center;
-    margin-right: 0;
+.main {
+    background: #CDCDCD;
+    height: 900px;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .row {
     display: flex;
-
-}
-.row ul li{
-list-style: none;
-}
-.row1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-.row2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-.row3 {
-    display: flex;
-    flex-wrap: wrap;
-}
-.row4 {
-    display: flex;
-    flex-wrap: wrap;
-}
-.row5 {
-    display: flex;
     flex-wrap: wrap;
 }
 
-.colleft{
-    margin-left: 10px;
+.col-l-1 {
+    width: 8.33333%;
+    margin-top: 15px;
 }
-.colright{
-    margin-left: 10px;
+
+.col-l-3 {
+    width: 25%;
+}
+
+.col-l-7 {
+    width: 58.33333%;
+}
+
+.col-l-9 {
+    width: 75%;
+}
+
+.left {
+    background: #CDCDCD;
+    height: 700px;
+    overflow: hidden;
+}
+
+.left:hover {
+    overflow: scroll;
+}
+
+.right {
+    margin-top: 60px;
+    margin-right: 10px;
 }
 
 /*màn hình điện thoai*/

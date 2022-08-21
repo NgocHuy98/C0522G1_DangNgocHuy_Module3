@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .row1 {
+            background: black;
+            color: white;
+            height: 50px;
+            width: 100%;
+            display: flex;
+        }
+
+        .row1 ul li {
+            background: black;
+            color: white;
+            height: 30px;
+            width: 100%;
+            display: flex;
+        }
+
+        .row2 {
+
+            height: 80%;
+            background: #f0f2f5;
+            display: flex;
+        }
+
+        .row3 {
+            padding-top: 20px;
+            text-align: center;
+            height: 40px;
+            color: white;
+            background: grey;
+
+        }
+
+
+        .col1 {
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .col1 ul li {
+            margin-top: 15px;
+            margin-left: 15px;
+            list-style: none;
+            position: relative;
+
+        }
+
+        .col-l-1 {
+            width: 8.33333%;
+        }
+
+        .col-l-2 {
+            width: 16.66667%;
+        }
+
+        .col-l-3 {
+            width: 25%;
+        }
+
+        .col-l-4 {
+            width: 33.33333%;
+        }
+
+        .col-l-5 {
+            width: 41.66667%;
+        }
+
+        .col-l-6 {
+            width: 50%;
+        }
+
+        .col-l-7 {
+            width: 58.33333%;
+        }
+
+        .col-l-8 {
+            width: 66.66667%;
+        }
+
+        .col-l-9 {
+            width: 75%;
+        }
+
+        .col-l-10 {
+            width: 83.33333%;
+        }
+
+        .col-l-11 {
+            width: 91.66667%;
+        }
+
+        .col-l-12 {
+            width: 100%;
+        }
+
+        .col2 {
+            padding-left: 10px;
+            text-align: left;
+            background: white;
+            height: 500px;
+        }
+
+        .icol {
+            border: 1px;
+            padding: 30px;
+            background: white;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+
+
+        }
+        #111 li{
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding:0;
+        }
+
+        #111  a{
+            width:100px;
+            height: 30px;
+            display: block;
+            text-decoration:none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+
+        #111  a{
+            color: white;
+            width: 200px;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        #111  a:hover{
+            background-color: red;
+        }
+
+        #111  ul {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            visibility: hidden;
+        }
+
+        #111  ul li:hover ul{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+<div class="row1">
+    <div class="col-l-1 col1">Logo</div>
+    <div class="col-l-1 col1">
+           Home
+    </div>
+    <div class="col-l-1 col1">About</div>
+    <div class="col-l-1 col1">Projects</div>
+    <div class="col-l-1 col1">Contact</div>
+    <div class="col-l-6"></div>
+    <div class="col-l-1 login">
+        <a href="#"><img src="img/img.png" alt=""></a>
+    </div>
+</div>
+
+
+<div class="row2">
+    <div class="col-l-2"></div>
+    <div class="col-l-8 col2">
+        <div><h1>Welcom</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+                commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+            </p>
+            <hr>
+        </div>
+        <div><h2>Test</h2>
+            Lorem ipsum...
+        </div>
+
+    </div>
+    <div class="col-l-2">
+        <div class="icol">ADS</div>
+        <div class="icol">ADS</div>
+    </div>
+</div>
+<div class="row3">Footer Text</div>
+</body>
+</html>
