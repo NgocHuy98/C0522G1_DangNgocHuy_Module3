@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84e6a3ee-7ebe-4db0-bb56-f54b07001560" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/product/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/exercise/exercise/src/main/webapp/product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/java/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc_model/practice/practice/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/config/UTF8Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/repository/impl/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise/exercise/src/main/java/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/model/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/webapp/user/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Dsl3LLodDbsLgcZw60EZh5rDMr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84e6a3ee-7ebe-4db0-bb56-f54b07001560" name="Changes" comment="" />
+      <created>1661495472746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661495472746</updated>
+      <workItem from="1661495475330" duration="69000" />
+      <workItem from="1661502192674" duration="2694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
