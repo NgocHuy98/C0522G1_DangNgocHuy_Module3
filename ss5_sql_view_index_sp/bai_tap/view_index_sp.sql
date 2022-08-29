@@ -91,12 +91,13 @@ select * from products;
 
 -- Tạo store procedure xoá sản phẩm theo id
 delimiter //
-create procedure sp_delete_products_by_id(in p_id int)
+create procedure sp_delete_products_by_id( p_id int)
 begin 
 delete from products where id = p_id;
 end //
 delimiter ;
-call sp_delete_products_by_id(1);
+call sp_delete_products_by_id(2);
+drop procedure sp_delete_products_by_id;
 
 
 
